@@ -1,5 +1,5 @@
 # Actividad - Explotación y Mitigación de Cross-Site Scripting (XSS)
-===
+
 Objetivos:
 
 > - Recordar cómo se pueden hacer ataques de Cross-Site Scripting (XSS)
