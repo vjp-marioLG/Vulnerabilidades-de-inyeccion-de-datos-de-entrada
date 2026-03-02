@@ -12,7 +12,7 @@ Objetivos:
 
 ---
 # ¿Qué es XSS?
-Cross-Site Scripting (XSS) ocurre cuando una aplicación no valida ni sanitiza l>
+Cross-Site Scripting (XSS) ocurre cuando una aplicación no valida ni sanitiza
 scripts maliciosos se ejecuten en el navegador de otros usuarios.
 
 Tipos de XSS:
@@ -546,4 +546,5 @@ Después de aplicar `filter_string_polyfill()`, se vuelve a ejecutar `htmlspecia
 4. Validación de longitud y contenido:
 
 Se valida que el comentario no esté vacío y que no supere los 500 caracteres. Aunque esto no previene directamente XSS, ayuda a limitar intentos de ataques masivos.
+
 
