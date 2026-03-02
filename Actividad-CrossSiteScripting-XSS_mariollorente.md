@@ -484,31 +484,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 **Ahora podremos defendernos de todos los tipos de ataque CrossSiteScripting-XSS**
 
-- XSS básico (reflejado)
+- **XSS básico (reflejado)**
 
 ![](img/19.png)
 
 ![](img/20.png)
 
-- Con atributo HTML
+- **Con atributo HTML**
 
 ![](img/21.png)
 
-- Inyección en atributos
+- **Inyección en atributos**
 
 ![](img/22.png)
 
 ![](img/23.png)
 
-- Payloads codificados (URL encoding)
+- **Payloads codificados (URL encoding)**
 
 ![](img/24.png)
 
--  Payloads codificados (HTML entities)
+-  **Payloads codificados (HTML entities)**
 
 ![](img/25.png)
 
-- Capturar cookies del usuario
+- **Capturar cookies del usuario**
 
 ![](img/26.png)
 
