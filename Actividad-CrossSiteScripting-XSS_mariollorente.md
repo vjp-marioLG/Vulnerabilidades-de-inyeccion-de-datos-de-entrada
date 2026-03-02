@@ -482,7 +482,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 ![](img/17.png)
 
-** Ahora podremos defendernos de todos los tipos de ataque CrossSiteScripting-XSS**
+**Ahora podremos defendernos de todos los tipos de ataque CrossSiteScripting-XSS**
 
 - XSS básico (reflejado)
 
