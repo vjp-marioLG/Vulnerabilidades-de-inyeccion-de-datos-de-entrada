@@ -527,7 +527,7 @@ En `filter_string_polyfill()`, las comillas simples (') y dobles (") se reemplaz
 
 3. Uso de htmlspecialchars:
 
-Después de aplicar `filter_string_polyfill()`, se vuelve a ejecutar `htmlspecialchars($comment, ENT_QUOTES, 'UTF-8')`;, lo que convierte caracteres especiales en entidades HTML.
+Después de aplicar `filter_string_polyfill()`, se vuelve a ejecutar `htmlspecialchars($comment, ENT_QUOTES, 'UTF-8');`, lo que convierte caracteres especiales en entidades HTML.
 
 	- ENT_QUOTES protege contra XSS al convertir tanto comillas simples como dobles en sus versiones seguras (&#39; y &#34;).
 
