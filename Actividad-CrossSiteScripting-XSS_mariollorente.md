@@ -362,8 +362,6 @@ Actualmente, cualquiera podría enviar comentarios en el formulario con una soli
 
 Para prevenir esto, se puede generar un token CSRF y verificarlo antes de procesar el comentario.
 
-En la [proxima actividad sobre ataques CSRF](https://github.com/jmmedinac03vjp/PPS-Unidad3Actividad6-CSRF) lo veremos más detenidamente.
-
 _Generar y almacenar el token en la sesión_
 ```PHP
 session_start();
